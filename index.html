@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .contact-container {
+            text-align: center;
+            padding: 30px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .contact-container:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-container h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .contact-links a:hover {
+            transform: translateY(-5px);
+        }
+
+        .whatsapp {
+            background: #25d366;
+        }
+
+        .phone {
+            background: #4a90e2;
+        }
+
+        .email {
+            background: #ff5a5f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+            <a href="https://wa.me/60138584103" target="_blank" class="whatsapp">WhatsApp No:+60138584103</a>
+            <a href="https://krnshop.zobaze.shop" target="_blank" class="email">My shop</a>
+            <a href="https://www.tiktok.com/@md.ibrahim.krn" target="_blank" class="whatsapp">Tiktok</a>
+            <a href="tel:+8801XXXXXXXXX" class="phone" >Call Me</a>
+            <a href="mailto:mdibrahimkrn@example.com" class="email">Email Me</a>
+        </div>
+    </div>
+
+</body>
+</html>
